@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pramila Chamuditha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1>Pramila Chamuditha</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="header-content">
+            <h2>Hi, I'm <span>Pramila Chamuditha</span></h2>
+            <p>Undergraduate Student in Software Engineering</p> <br>
+            <a href="#services" class="btn">Explore My Services</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Pramila Chamuditha">
+            <div>
+                <p>I am a 21-year-old undergraduate student at SLTC Research University pursuing a BSc (Hons) in Software Engineering. I have completed a Diploma in IT from Esoft Metro Campus and a Certificate course in Software Engineering. Enthusiastic about programming and problem-solving, I am eager to explore innovative technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service-card" data-service="web">
+                <h3>Web Designing</h3>
+                <p>I create attractive, user-friendly, and future-ready websites to meet your needs.</p>
+            </div>
+            <div class="service-card" data-service="uiux">
+                <h3>UI/UX Designing</h3>
+                <p>I design engaging and easy-to-navigate interfaces to enhance user experience.</p>
+            </div>
+            <div class="service-card" data-service="ethical">
+                <h3>Ethical Hacking</h3>
+                <p>Identifying and fixing vulnerabilities to protect systems from cyber threats.</p>
+            </div>
+        </div>
+        <p id="selected-service">Select a service to see details.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="form-section">
+                <h3>Get In Touch</h3>
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="details-section">
+                <h3>My Contact Details</h3>
+                <p><strong>Email:</strong> <a href="mailto:pramila2003@gmail.com">pramila2003@gmail.com</a></p>
+                <p><strong>Phone:</strong> 0718675434</p>
+                <p><strong>Address:</strong> Lakeside, Paradise, Kuruwita, Sri Lanka</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pramila Chamuditha | Designed with passion</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
